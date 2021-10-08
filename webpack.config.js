@@ -1,7 +1,7 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
     watch: true,
-    entry: "./src/index.tsx",
+    entry: "./src/index.jsx",
     output: {
       filename: "bundle.js",
       path: __dirname + "/dist"
@@ -13,7 +13,7 @@ module.exports = {
     ],
     resolve: {
       modules: [__dirname, "src", "node_modules"],  
-      extensions: [".ts", ".tsx", ".js", ".json","jsx"],
+      extensions: [".ts", ".tsx", ".js", ".json",".jsx"],
     },
     devtool: "source-map",
     devServer: {
