@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/jedi116/starterWebpackConfig#readme",
   "dependencies": {
+    "@okta/okta-auth-js": "^5.5.0",
+    "@okta/okta-react": "^6.2.0",
+    "@okta/okta-signin-widget": "^5.12.0",
     "core-js": "^3.18.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
